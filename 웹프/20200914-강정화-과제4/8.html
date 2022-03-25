@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습문제 8번</title>
+        <script>
+            function big(obj) {
+                var litags=document.getElementsByTagName("li");
+                for (var i=0;i<litags.length;i++){
+                    litags[i].style.fontSize="1em";
+                }
+                obj.style.fontSize="1.3em"
+            }
+        </script>
+    </head>
+    <body>
+        <h3>아이템을 클릭하면 1.3배 크기로</h3>
+        <hr>
+        <p>여름방학 때 하고싶은 것들</p>
+        <ul>
+            <li onclick="big(this)">자전거로 대한민국 일주</li>
+            <li onclick="big(this)">책 100권 읽기</li>
+            <li onclick="big(this)">철인 3종 경기 준비</li>
+            <li onclick="big(this)">자바스크립트 정복</li>
+        </ul>
+    </body>
+
+</html>

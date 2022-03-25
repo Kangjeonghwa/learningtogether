@@ -1,0 +1,21 @@
+<!--(2) 과일 뽑기-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>과일뽑기</title>
+        <script>
+            var fruits=["딸기","수박","포도","사과","귤"];
+            function buttonClick(bt){
+                m=Math.random()*4;
+                n=Math.round(m);
+                alert(fruits[n]);
+            }
+        </script>
+    </head>
+    <body>
+        <h3>과일뽑기</h3>
+        <hr>
+        <input type="button" value="뽑기" onclick="buttonClick(this)">
+    </body>
+</html>

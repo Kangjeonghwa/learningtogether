@@ -1,0 +1,10 @@
+# HW-3 : Code06-09
+
+i, hap=0,0
+
+i=1
+while i<11:
+    hap+=i
+    i+=1
+
+print("1부터 10까지의 합계 : %d"%hap)

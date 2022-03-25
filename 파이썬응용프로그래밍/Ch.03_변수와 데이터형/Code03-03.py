@@ -1,0 +1,10 @@
+# HW-3: 교과서 67 페이지 Code03-03
+print("    *    ")
+print("   ***   ")
+print("  *****  ")
+print(" ******* ")
+print("*********")
+print(" ******* ")
+print("  *****  ")
+print("   ***   ")
+print("    *    ")

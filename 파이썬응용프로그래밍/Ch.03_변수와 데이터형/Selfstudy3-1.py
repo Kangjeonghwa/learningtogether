@@ -1,0 +1,10 @@
+#HW-4: 교과서 79 페이지 Self Study 3-1
+print("*********")
+print(" ******* ")
+print("  *****  ")
+print("   ***   ")
+print("    *    ")
+print("   ***   ")
+print("  *****  ")
+print(" ******* ")
+print("*********")

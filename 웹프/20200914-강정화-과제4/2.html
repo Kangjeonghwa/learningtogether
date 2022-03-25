@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>실습 문제 2번</title>
+        <script>
+            function findCheck() {
+                var found=null;
+                var fruit=document.getElementsByName("fruits");
+                var img=document.getElementById("fruitsImage");
+                for (var i=0;i<fruit.length;i++){
+                    if (fruit[i].checked==true){
+                        found=fruit[i];
+                    }
+                }
+                img.src=found.value;
+            }
+        </script>
+
+    </head>
+    <body>
+        <h3>라디오 버튼을 클릭하면 이미지를 출력합니다.</h3>
+        <hr>
+        <form>
+            <input type="radio" name="fruits" value="banana.jpg" checked onchange="findCheck()">바나나
+            <input type="radio" name="fruits" value="mango.jpg" onchange="findCheck()">망고
+            <input type="radio" name="fruits" value="apple.jpg" onchange="findCheck()">사과
+            <img id="fruitsImage" src="banana.jpg" alt="">    
+        </form>
+    </body>
+</html>
